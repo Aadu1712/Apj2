@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APJ2's Personal Page</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #f0a500;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: #1c1c1c;
+        }
+        h2 {
+            color: #f0a500;
+        }
+        .about {
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #f0a500;
+            color: #121212;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        APJ2's Personal Page
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Truly great friends are hard to find, difficult to leave, and impossible to forget.</p>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <p>Coming soon...</p>
+    </section>
+    <section class="blog">
+        <h2>Blog</h2>
+        <p>Coming soon...</p>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>
